@@ -10,6 +10,7 @@
         <p>
             Cette page contient du code HTML avec des balises PHP.<br />
             <?php /* Insérer du code PHP ici, ou pas */ ?>
+            <?php echo "Cette ligne a été écrite \"uniquement\" en PHP."; ?>
             Voici quelques petits tests :
         </p>
         
