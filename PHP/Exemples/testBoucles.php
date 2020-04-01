@@ -33,12 +33,11 @@ while ($nombre_de_lignes <= 100)
     $nombre_de_lignes++; 
 }
 //for
-<?php
 for ($nombre_de_lignes = 1; $nombre_de_lignes <= 100; $nombre_de_lignes++)
 {
     echo 'Ceci est la ligne n°' . $nombre_de_lignes . '<br />';
 }
-?>
+
 /*
 La bouclewhile est plus simple et plus flexible : on peut faire tous les types de boucles avec mais on peut oublier de faire certaines étapes comme l'incrémentation de la variable.
 En revanche,for est bien adapté quand on doit compter le nombre de fois que l'on répète les instructions et il permet de ne pas oublier de faire l'incrémentation pour augmenter la valeur de la variable !
